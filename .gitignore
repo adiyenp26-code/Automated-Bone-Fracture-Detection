@@ -1,98 +1,38 @@
 # =========================
-# Python Standard Ignores
+# Python
 # =========================
-
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py.cover
-.hypothesis/
-.pytest_cache/
-
 # Virtual environments
-.env
-.envrc
-.venv
+.venv/
 venv/
 env/
 ENV/
-env.bak/
-venv.bak/
-
-# Jupyter
-.ipynb_checkpoints
-
-# VS Code / IDE
-.vscode/
-.idea/
-.spyderproject
-.spyproject
-.ropeproject
-
-# OS files
-.DS_Store
-Thumbs.db
 
 # =========================
-# Machine Learning Specific
+# Dataset (DO NOT UPLOAD)
 # =========================
-
-# Dataset folders (DO NOT upload X-ray images)
-dataset/
 data/
+dataset/
 datasets/
 raw_data/
 processed_data/
-kaggle/
+test_images/
 
-# Model weights / checkpoints (ignore if large)
+# =========================
+# Model weights / checkpoints
+# =========================
 *.h5
-*.keras
 *.ckpt
 *.ckpt.*
-*.pb
 saved_model/
 checkpoints/
 
-# Training logs / experiment tracking
+# =========================
+# Training logs / experiments
+# =========================
 logs/
 runs/
 tb_logs/
@@ -101,14 +41,10 @@ mlruns/
 outputs/
 artifacts/
 
-# Generated results (optional — keep commented if you want plots tracked)
-# evaluation/
-# results/
-# *.csv
-# *.png
-
-# Python type check / static analysis
-.mypy_cache/
-.pyre/
-.pytype/
-.ruff_cache/
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
