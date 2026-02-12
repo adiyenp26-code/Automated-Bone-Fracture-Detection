@@ -1,0 +1,19 @@
+Clinical Metrics Summary (Baseline)
+==================================
+
+Positive class: fractured (index 0)
+Default threshold used: 0.50
+
+Binary confusion matrix at default threshold (fractured=1):
+TP=353, FN=47, TN=25, FP=0
+
+Sensitivity / Recall (TPR): 0.8825
+Specificity (TNR):          1.0000
+Precision (PPV):            1.0000
+NPV:                        0.3472
+ROC-AUC:                    1.0000
+
+Suggested threshold (Youden’s J maximization):
+  threshold:   0.0243
+  sensitivity: 1.0000
+  specificity: 1.0000

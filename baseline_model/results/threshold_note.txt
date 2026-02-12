@@ -1,0 +1,19 @@
+Threshold Note (Baseline)
+=========================
+
+This model outputs a probability for the 'fractured' class.
+A default threshold of 0.50 is used to convert probability into a binary decision.
+
+Why 0.50?
+- It is the standard starting point when the costs of false positives and false negatives
+  are assumed equal.
+
+How to tune for biomedical use:
+- If the priority is to miss as few fractures as possible (higher sensitivity), lower the threshold.
+- If the priority is to reduce false alarms (higher specificity), raise the threshold.
+
+Suggested threshold (from ROC, Youden’s J):
+- 0.0243 (maximizes sensitivity + specificity - 1 on this validation split)
+
+Important note:
+- Threshold tuning should be validated on an independent test set before any real clinical use.
