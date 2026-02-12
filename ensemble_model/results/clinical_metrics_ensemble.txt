@@ -1,0 +1,14 @@
+Clinical Metrics (Ensemble)
+Threshold used for classification: 0.5
+
+TP: 24
+FP: 1
+TN: 399
+FN: 1
+
+Sensitivity (Recall, fractured): 0.9600
+Specificity (non-fractured):     0.9975
+Precision:                       0.9600
+NPV:                             0.9975
+Accuracy:                        0.9953
+ROC-AUC (ensemble probs):        0.9999

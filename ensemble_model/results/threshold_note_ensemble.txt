@@ -1,0 +1,11 @@
+Threshold Note (Ensemble)
+
+1) Standard threshold used for reporting = 0.50
+   Reason: widely used default; easy to interpret; consistent across experiments.
+
+2) ROC-based suggested threshold (Youden’s J) = 0.4611
+   Meaning: maximizes (Sensitivity - False Positive Rate) on this validation split.
+   In clinical workflows, threshold can be tuned depending on whether missing fractures
+   (FN) is worse than false alarms (FP).
+
+   Recommendation: keep 0.50 for baseline reporting, but discuss tuning as a future step.

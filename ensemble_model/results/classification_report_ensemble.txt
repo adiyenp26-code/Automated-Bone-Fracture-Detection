@@ -1,0 +1,8 @@
+               precision    recall  f1-score   support
+
+    fractured     0.9975    0.9975    0.9975       400
+non_fractured     0.9600    0.9600    0.9600        25
+
+     accuracy                         0.9953       425
+    macro avg     0.9788    0.9788    0.9788       425
+ weighted avg     0.9953    0.9953    0.9953       425

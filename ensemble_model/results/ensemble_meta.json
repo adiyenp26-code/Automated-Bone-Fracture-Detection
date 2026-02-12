@@ -1,0 +1,15 @@
+{
+  "model_a": "mobilenetv2",
+  "model_b": "efficientnetb0",
+  "weights": {
+    "mobilenetv2": 0.6,
+    "efficientnetb0": 0.4
+  },
+  "report_threshold": 0.5,
+  "youden_threshold": 0.46110349893569946,
+  "roc_auc": 0.9999,
+  "class_indices": {
+    "fractured": 0,
+    "non_fractured": 1
+  }
+}
