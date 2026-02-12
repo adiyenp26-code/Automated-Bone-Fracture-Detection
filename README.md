@@ -42,7 +42,7 @@ dataset/
 
 ## 🧠 Methodology
 
-I implement and compare two modeling strategies:
+I implemented and compared two modeling strategies:
 
 ### 1. Baseline Model: MobileNetV2 (Transfer Learning)
 - **Architecture**: Pretrained on ImageNet with a frozen convolutional backbone initially, followed by fine-tuning.
@@ -95,9 +95,14 @@ Location: `ensemble_model//Results/`
 
 ## 🧪 Simulation-Based Inference
 
+Running Predictions on New X-rays
+
+- Place unseen X-ray images inside:
+  test_images/
+
 Test the models in a deployment-like scenario using:
 ```
-python predict_ensemble_clinical.py
+python predict_ensemble_clinical.py --input test_images
 ```
 
 This script:
