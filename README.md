@@ -76,7 +76,7 @@ All results are pre-computed and stored in the repository for immediate inspecti
 - Confusion matrices to reveal decision asymmetry.
 
 ### Baseline Model Results
-Location: `baseline_model/`
+Location: `baseline_model/Results/`
 - `accuracy.png` & `loss.png`: Training/validation curves.
 - `confusion_matrix.png`: Visualizes predictions at the selected threshold.
 - `roc_curve.png`: ROC curve with AUC.
@@ -87,7 +87,7 @@ Location: `baseline_model/`
 **Key Observations**: High sensitivity but some asymmetry due to imbalance, with a conservative bias toward predicting fractures.
 
 ### Ensemble Model Results
-Location: `ensemble_model/`
+Location: `ensemble_model//Results/`
 - Individual curves: `mobilenetv2_accuracy.png`, `mobilenetv2_loss.png`, `efficientnetb0_accuracy.png`, `efficientnetb0_loss.png`.
 - Fused outputs: `confusion_matrix_ensemble.png`, `roc_curve_ensemble.png`, `classification_report_ensemble.txt`, `clinical_metrics_ensemble.txt`, `threshold_note_ensemble.txt`.
 
