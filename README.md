@@ -161,14 +161,6 @@ I ensure reproducibility through fixed seeds, detailed documentation, and pre-co
 - Gains stem from complementary representations and variance reduction at the decision level.
 - Emphasis on clinical metrics reveals practical insights beyond accuracy.
 
-## ⚠️ Limitations
-
-- Relies on a single dataset without external validation.
-- Limited to binary classification; no multi-class or localization.
-- Lacks interpretability tools (e.g., Grad-CAM for visual explanations).
-- Thresholds optimized under controlled conditions—may not generalize.
-- Not evaluated in real-time clinical workflows.
-
 ## 🚀 Future Directions
 
 - Validate on diverse, external datasets.
